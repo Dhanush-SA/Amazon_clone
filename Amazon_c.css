@@ -1,0 +1,176 @@
+@import url("https://cdn.jsdelivr.net/gh/GoCloudHub/font-amazon-ember/fonts/amazonember/amazonember.css");
+*{
+    padding: 0%;
+    border: 0px;
+    margin: 0%;
+}
+body{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.container1{
+    background-color: rgb(19, 25, 33);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5px;
+    padding-left: 10px;
+    height: 58px;
+}
+#loc{
+    margin-left: 12px;
+}
+
+.all_ip_icon{
+    display: flex;
+    align-items: center;
+}
+.input{
+    height: 40px;
+    width: 470px;
+    margin: 10px 0px 10px 0px;
+    padding-left: 20px;
+}
+#all{
+    height: 40px;
+    border-radius: 5px 0 0 5px;
+    margin-left: 5px;
+}
+    
+
+#search{
+    height: 40.6px;
+    border-radius: 0 5px 5px 0;
+    margin-bottom: 0.1px;
+}
+
+.location{
+    margin-left: 9px;
+    padding: 5px;
+
+}
+
+.location:hover{
+    border: 1px solid #fff;
+}
+
+.hello_box{
+    display: flex;
+    flex-direction: column;
+    margin-left: 9px;
+    padding: 5px;
+}
+
+.hello_box:hover{
+    border: 1px solid #fff;
+}
+.hello{
+    color: #fff;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 525;
+    line-height: 14px;
+}
+
+.acc{
+    color: #fff;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 14px;
+}
+
+.return{
+    margin-left: 9px;
+    padding: 5px;
+}
+
+.return:hover{
+    border: 1px solid #fff;
+}
+
+#top-right:hover{
+    border: 1px solid #fff;
+    padding: 2px;
+}
+
+.kart{
+    height: 40px;
+}
+.kart:hover{
+    border: 1px solid #fff;
+}
+
+.sugg{
+    margin-top: 0% ;
+    align-items: center;
+    display: flex;
+    height: 40px;
+    background-color: #232F3E;
+}
+#ham{
+    height: 15px;
+    margin-bottom: 16px;
+    margin-left: 18px;
+}
+#details{
+    color: white;
+    font-size: 15px;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    margin-left: 5px;
+    size: 50%;
+}
+
+
+.items{
+    width: 100%;
+    font-size: 15px;
+    line-height: 12px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 5px;
+    color: #fff;
+    font-family: "Amazon Ember", Arial, sans-serif;
+}
+.item:hover{
+
+    border: 1px solid #fff;
+    margin: 0px;
+    padding: 3px;
+}
+
+#demo{
+    position: relative;
+}
+#demo1{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    justify-content: center;
+    position: absolute;
+    top: 240px;
+}
+
+.comp{
+    height: 300px;
+    margin-right: 55px;
+}
+
+.carousel-control-prev{
+    justify-content: flex-start;
+}
+
+.carousel-control-next{
+    justify-content: flex-end;
+}
